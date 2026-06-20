@@ -1,0 +1,57 @@
+{
+  "model": "bert",
+  "hf_name": "bert-base-uncased",
+  "epochs": 3,
+  "lr": 2e-05,
+  "test_accuracy": 0.9617520049352252,
+  "test_f1_macro": 0.8976214898029765,
+  "test_precision_macro": 0.8859130803643996,
+  "test_recall_macro": 0.9113929015516776,
+  "binary_accuracy": 0.9907464528069093,
+  "binary_f1": 0.9895470383275261,
+  "report": {
+    "Normal": {
+      "precision": 0.9922480620155039,
+      "recall": 0.9911504424778761,
+      "f1-score": 0.991698948533481,
+      "support": 904.0
+    },
+    "Promotion": {
+      "precision": 0.74,
+      "recall": 0.8604651162790697,
+      "f1-score": 0.7956989247311828,
+      "support": 43.0
+    },
+    "Spam": {
+      "precision": 0.7936507936507936,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8130081300813008,
+      "support": 60.0
+    },
+    "Phishing": {
+      "precision": 0.9522776572668112,
+      "recall": 0.9400428265524625,
+      "f1-score": 0.9461206896551724,
+      "support": 467.0
+    },
+    "Fraud": {
+      "precision": 0.9513888888888888,
+      "recall": 0.9319727891156463,
+      "f1-score": 0.9415807560137457,
+      "support": 147.0
+    },
+    "accuracy": 0.9617520049352252,
+    "macro avg": {
+      "precision": 0.8859130803643996,
+      "recall": 0.9113929015516776,
+      "f1-score": 0.8976214898029765,
+      "support": 1621.0
+    },
+    "weighted avg": {
+      "precision": 0.9629852734678167,
+      "recall": 0.9617520049352252,
+      "f1-score": 0.9622098237171942,
+      "support": 1621.0
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "word_count":{
+    "negative":67.918,
+    "neutral":102.886,
+    "positive":78.976
+  },
+  "char_count":{
+    "negative":369.096,
+    "neutral":564.369,
+    "positive":435.41
+  },
+  "exclamation_count":{
+    "negative":0.388,
+    "neutral":0.265,
+    "positive":0.577
+  },
+  "caps_words":{
+    "negative":0.844,
+    "neutral":0.764,
+    "positive":0.575
+  },
+  "vader_sentiment":{
+    "negative":0.001,
+    "neutral":0.373,
+    "positive":0.723
+  },
+  "helpful":{
+    "negative":2.29,
+    "neutral":1.823,
+    "positive":1.672
+  }
+}

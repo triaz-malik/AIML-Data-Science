@@ -1,0 +1,32 @@
+{
+  "category_counts": {
+    "Debt collection": 47915,
+    "Credit reporting & repair": 46263,
+    "Mortgage": 36582,
+    "Credit card or prepaid card": 23648,
+    "Bank account or service": 17030,
+    "Student loan": 13304,
+    "Consumer & personal loan": 12740,
+    "Money transfer & virtual currency": 2196
+  },
+  "peak_month": "2017-05-31",
+  "peak_month_count": 9496,
+  "top_states": {
+    "CA": 27712,
+    "FL": 18479,
+    "TX": 18089,
+    "NY": 11235,
+    "GA": 10939,
+    "IL": 7716,
+    "NJ": 6992,
+    "PA": 6918,
+    "NC": 6363,
+    "OH": 6159
+  },
+  "word_count": {
+    "mean": 192.0,
+    "median": 136,
+    "p95": 581,
+    "max": 6314
+  }
+}

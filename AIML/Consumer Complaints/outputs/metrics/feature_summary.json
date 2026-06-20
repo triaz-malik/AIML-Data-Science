@@ -1,0 +1,62 @@
+{
+  "word_count":{
+    "Bank account or service":230.8,
+    "Consumer & personal loan":202.24,
+    "Credit card or prepaid card":210.86,
+    "Credit reporting & repair":141.05,
+    "Debt collection":149.94,
+    "Money transfer & virtual currency":211.18,
+    "Mortgage":267.25,
+    "Student loan":217.87
+  },
+  "char_count":{
+    "Bank account or service":1248.44,
+    "Consumer & personal loan":1079.52,
+    "Credit card or prepaid card":1143.55,
+    "Credit reporting & repair":787.0,
+    "Debt collection":814.8,
+    "Money transfer & virtual currency":1142.35,
+    "Mortgage":1470.11,
+    "Student loan":1182.65
+  },
+  "sentence_count":{
+    "Bank account or service":12.85,
+    "Consumer & personal loan":11.4,
+    "Credit card or prepaid card":11.8,
+    "Credit reporting & repair":7.29,
+    "Debt collection":8.13,
+    "Money transfer & virtual currency":11.72,
+    "Mortgage":14.61,
+    "Student loan":12.02
+  },
+  "capital_words":{
+    "Bank account or service":15.56,
+    "Consumer & personal loan":13.25,
+    "Credit card or prepaid card":13.11,
+    "Credit reporting & repair":15.31,
+    "Debt collection":11.28,
+    "Money transfer & virtual currency":15.34,
+    "Mortgage":20.98,
+    "Student loan":11.55
+  },
+  "exclamation_count":{
+    "Bank account or service":0.41,
+    "Consumer & personal loan":0.32,
+    "Credit card or prepaid card":0.33,
+    "Credit reporting & repair":0.25,
+    "Debt collection":0.2,
+    "Money transfer & virtual currency":0.31,
+    "Mortgage":0.42,
+    "Student loan":0.33
+  },
+  "vader_sentiment":{
+    "Bank account or service":-0.13,
+    "Consumer & personal loan":0.0,
+    "Credit card or prepaid card":0.12,
+    "Credit reporting & repair":0.1,
+    "Debt collection":-0.27,
+    "Money transfer & virtual currency":-0.1,
+    "Mortgage":-0.02,
+    "Student loan":0.03
+  }
+}

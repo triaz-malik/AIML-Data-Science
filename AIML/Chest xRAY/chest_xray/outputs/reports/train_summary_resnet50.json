@@ -1,0 +1,6 @@
+{
+  "model": "resnet50",
+  "best_val_recall": 0.9896373056994818,
+  "minutes": 6.71,
+  "checkpoint": "C:\\Working\\AI ML Projetcs\\Chest xRAY\\chest_xray\\outputs\\checkpoints\\resnet50_best.pt"
+}

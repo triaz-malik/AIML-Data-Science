@@ -1,0 +1,67 @@
+{
+  "n_rows": 420551,
+  "n_cols": 15,
+  "date_start": "2009-01-01 00:10:00",
+  "date_end": "2017-01-01 00:00:00",
+  "missing_values": "none",
+  "duplicate_timestamps": 327,
+  "impossible_wind_readings": 38,
+  "outliers_iqr": {
+    "pressure": {
+      "count": 6750,
+      "pct": 1.61
+    },
+    "temperature": {
+      "count": 1528,
+      "pct": 0.36
+    },
+    "temp_pot": {
+      "count": 1945,
+      "pct": 0.46
+    },
+    "temp_dew": {
+      "count": 2603,
+      "pct": 0.62
+    },
+    "humidity": {
+      "count": 742,
+      "pct": 0.18
+    },
+    "vp_max": {
+      "count": 11565,
+      "pct": 2.75
+    },
+    "vp_act": {
+      "count": 1313,
+      "pct": 0.31
+    },
+    "vp_def": {
+      "count": 32347,
+      "pct": 7.69
+    },
+    "specific_humidity": {
+      "count": 1439,
+      "pct": 0.34
+    },
+    "h2o_conc": {
+      "count": 1373,
+      "pct": 0.33
+    },
+    "air_density": {
+      "count": 3048,
+      "pct": 0.72
+    },
+    "wind_speed": {
+      "count": 14758,
+      "pct": 3.51
+    },
+    "wind_speed_max": {
+      "count": 11781,
+      "pct": 2.8
+    },
+    "wind_dir": {
+      "count": 0,
+      "pct": 0.0
+    }
+  }
+}

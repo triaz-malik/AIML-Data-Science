@@ -1,0 +1,67 @@
+{
+  "n_rows": 1470,
+  "attrition_rate_pct": 16.1,
+  "figures": {
+    "attrition_distribution": "C:\\Working\\AI ML Projetcs\\Employee Retention Data\\outputs\\figures\\01_attrition_distribution.png",
+    "department": "C:\\Working\\AI ML Projetcs\\Employee Retention Data\\outputs\\figures\\02_department_attrition.png",
+    "income_box": "C:\\Working\\AI ML Projetcs\\Employee Retention Data\\outputs\\figures\\03_income_boxplot.png",
+    "overtime": "C:\\Working\\AI ML Projetcs\\Employee Retention Data\\outputs\\figures\\04_overtime_attrition.png",
+    "tenure": "C:\\Working\\AI ML Projetcs\\Employee Retention Data\\outputs\\figures\\05_years_at_company.png",
+    "promotion": "C:\\Working\\AI ML Projetcs\\Employee Retention Data\\outputs\\figures\\06_promotion_delay.png",
+    "job_satisfaction": "C:\\Working\\AI ML Projetcs\\Employee Retention Data\\outputs\\figures\\07_job_satisfaction.png",
+    "correlation": "C:\\Working\\AI ML Projetcs\\Employee Retention Data\\outputs\\figures\\08_correlation_heatmap.png"
+  },
+  "business_questions": {
+    "Q1_department": {
+      "question": "Which departments lose most employees?",
+      "answer": "Sales has the highest attrition at 20.6%, vs Research & Development at 13.8%.",
+      "data": {
+        "Sales": 20.6,
+        "Human Resources": 19.0,
+        "Research & Development": 13.8
+      }
+    },
+    "Q2_overtime": {
+      "question": "Does overtime cause resignations?",
+      "answer": "Overtime employees leave at 30.5% vs 10.4% without overtime (2.9x higher).",
+      "data": {
+        "Yes": 30.5,
+        "No": 10.4
+      }
+    },
+    "Q3_salary": {
+      "question": "Do low salaries increase churn?",
+      "answer": "Median income of leavers is $3,202 vs $5,204 for stayers (38% lower).",
+      "data": {
+        "median_income_stay": 5204.0,
+        "median_income_leave": 3202.0
+      }
+    },
+    "Q4_new_employees": {
+      "question": "Are new employees leaving quickly?",
+      "answer": "Employees with <2 years tenure leave at 34.9% vs 12.9% for more tenured staff.",
+      "data": {
+        "early_career_pct": 34.9,
+        "tenured_pct": 12.9
+      }
+    },
+    "Q5_promotion": {
+      "question": "Does promotion delay impact attrition?",
+      "answer": "Employees not promoted in >4 years leave at 14.2% vs 16.5% for recently promoted staff.",
+      "data": {
+        "promo_delayed_pct": 14.2,
+        "promo_recent_pct": 16.5
+      }
+    },
+    "Q6_risky_profile": {
+      "question": "Which employee profiles are most risky?",
+      "answer": "Highest risk profile: works overtime, in the lowest salary band, early career (<2y), with delayed promotion and low job satisfaction (satisfaction=1 leaves at 22.8%).",
+      "data": {
+        "job_satisfaction_1": 22.8,
+        "job_satisfaction_2": 16.4,
+        "job_satisfaction_3": 16.5,
+        "job_satisfaction_4": 11.3
+      }
+    }
+  }
+}

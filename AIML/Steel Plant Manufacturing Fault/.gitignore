@@ -1,0 +1,37 @@
+# Data (large — not committed)
+train_images/
+test_images/
+data/*.csv
+train.csv
+sample_submission.csv
+
+# Models & artifacts
+models/*.pth
+models/*.pt
+models/*.onnx
+*.ckpt
+
+# Generated outputs
+eda/*.png
+reports/*.csv
+reports/*.html
+gradcam/*.png
+segmentation/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Optuna
+*.db
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,86 @@
+{
+  "n_train": 1176,
+  "n_test": 294,
+  "test_attrition_rate_pct": 16.0,
+  "scale_pos_weight": 5.19,
+  "decision_threshold": 0.35,
+  "best_params": {
+    "Logistic Regression": {
+      "C": 0.1
+    },
+    "Random Forest": {
+      "n_estimators": 200,
+      "min_samples_split": 10,
+      "min_samples_leaf": 4,
+      "max_features": "log2",
+      "max_depth": null
+    },
+    "XGBoost": {
+      "subsample": 0.7,
+      "n_estimators": 400,
+      "max_depth": 5,
+      "learning_rate": 0.1,
+      "colsample_bytree": 0.7
+    }
+  },
+  "results": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.6803,
+      "precision": 0.3089,
+      "recall": 0.8085,
+      "f1": 0.4471,
+      "roc_auc": 0.8286,
+      "confusion_matrix": [
+        [
+          162,
+          85
+        ],
+        [
+          9,
+          38
+        ]
+      ],
+      "threshold": 0.35
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.7959,
+      "precision": 0.411,
+      "recall": 0.6383,
+      "f1": 0.5,
+      "roc_auc": 0.7877,
+      "confusion_matrix": [
+        [
+          204,
+          43
+        ],
+        [
+          17,
+          30
+        ]
+      ],
+      "threshold": 0.35
+    },
+    {
+      "model": "XGBoost",
+      "accuracy": 0.8367,
+      "precision": 0.4848,
+      "recall": 0.3404,
+      "f1": 0.4,
+      "roc_auc": 0.7898,
+      "confusion_matrix": [
+        [
+          230,
+          17
+        ],
+        [
+          31,
+          16
+        ]
+      ],
+      "threshold": 0.35
+    }
+  ],
+  "winner": "Logistic Regression"
+}

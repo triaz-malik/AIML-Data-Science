@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+
+submission.csv
+submission.zip
+artifacts/
+*.pkl

@@ -1,0 +1,28 @@
+        ===== EDA SUMMARY =====
+        Total images: 5830
+
+        Counts by split/class:
+        label  NORMAL  PNEUMONIA
+split                   
+test      234        390
+train    1146       3279
+val       202        579
+
+        Overall class balance:
+        label
+PNEUMONIA    4248
+NORMAL       1582
+        PNEUMONIA share: 72.9%   (imbalance ratio ~2.69:1)
+
+        Image size (px):
+          width : min=384  max=2916  median=1280
+          height: min=127  max=2713  median=886
+
+        Business insights:
+          * Strong class imbalance -> use class-weighted loss + augmentation;
+            report RECALL (not accuracy) as the primary KPI.
+          * Variable resolutions -> standardise to 224x224.
+          * Pneumonia X-rays show denser/whiter opacities -> visible as a shift
+            in the mean-intensity histogram (see 06_pixel_intensity.png).
+
+        Figures written to: C:\Working\AI ML Projetcs\Chest xRAY\chest_xray\outputs\figures

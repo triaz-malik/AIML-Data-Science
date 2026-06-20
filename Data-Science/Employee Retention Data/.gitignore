@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Generated artifacts (regenerate with `python main.py`)
+# Comment these out if you want to commit the outputs/report.
+outputs/models/*.joblib

@@ -1,0 +1,22 @@
+[project]
+name = "engineering_team"
+version = "0.1.0"
+description = "A CrewAI engineering team: lead, backend, frontend, and test engineers that build software from requirements."
+authors = [{ name = "triaz", email = "triaz.malik@gmail.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]>=0.100.0",
+    "gradio>=4.0.0",
+    "streamlit>=1.30.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+run_crew = "engineering_team.main:run"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/engineering_team"]

@@ -1,0 +1,29 @@
+# Core
+pandas
+pyarrow
+numpy
+scikit-learn
+matplotlib
+seaborn
+
+# NLP
+nltk
+vaderSentiment
+wordcloud
+
+# Data download
+datasets
+huggingface_hub
+
+# Transformers (GPU build of torch installed separately, e.g. cu128)
+torch
+transformers
+accelerate
+
+# Explainability
+shap
+joblib
+
+# Dashboard
+streamlit
+plotly

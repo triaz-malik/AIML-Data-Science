@@ -1,0 +1,19 @@
+EDA SUMMARY
+==================================================
+Customers ................ 5,852
+Products ................. 4,620
+Invoices ................. 36,594
+Total revenue ............ 17,068,582.72
+Avg revenue / customer ... 2,916.71
+Median revenue / customer  856.02
+Avg orders / customer .... 6.25
+
+Top 20% of customers drive 77.2% of revenue.
+UK share of revenue ...... 83.7%
+
+Top 5 products by revenue:
+       277,656  REGENCY CAKESTAND 3 TIER
+       247,048  WHITE HANGING HEART T-LIGHT HOLDER
+       168,470  PAPER CRAFT , LITTLE BIRDIE
+       134,307  JUMBO BAG RED RETROSPOT
+       124,352  ASSORTED COLOUR BIRD ORNAMENT

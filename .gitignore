@@ -1,0 +1,69 @@
+# ----- Claude / editor settings (never push) -----
+.claude/
+.vscode/
+.idea/
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ----- Logs -----
+*.log
+
+# ----- Datasets (large / raw data) -----
+*.csv
+*.tsv
+*.txt.bz2
+*.bz2
+*.gz
+*.zip
+*.7z
+*.rar
+*.parquet
+*.feather
+*.npz
+*.npy
+
+# ----- Model weights / artifacts -----
+*.h5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.pb
+*.pkl
+*.joblib
+*.onnx
+*.tflite
+*.bin
+*.safetensors
+
+# ----- Images / media (large CV datasets) -----
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.svg
+*.mp4
+*.avi
+
+# ----- Keep final reports regardless of the rules above -----
+!*.pdf
+!*.docx
+!*.html
+!*.md
+!requirements.txt
+
+# ----- Secrets / environment files -----
+.env
+.env.*
+.env.txt
+!.env.example

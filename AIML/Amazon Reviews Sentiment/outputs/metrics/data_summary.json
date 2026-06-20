@@ -1,0 +1,36 @@
+{
+  "rows_total_raw": 250000,
+  "rows_missing_text": 51,
+  "duplicate_reviews_removed": 14805,
+  "rows_final": 235144,
+  "n_categories": 5,
+  "rows_per_category": {
+    "Home and Kitchen": 47409,
+    "Electronics": 47370,
+    "Clothing Shoes and Jewelry": 47020,
+    "Books": 46980,
+    "Toys and Games": 46365
+  },
+  "rating_distribution": {
+    "1": 12527,
+    "2": 9109,
+    "3": 18249,
+    "4": 40326,
+    "5": 154933
+  },
+  "sentiment_distribution": {
+    "positive": 195259,
+    "negative": 21636,
+    "neutral": 18249
+  },
+  "sentiment_pct": {
+    "positive": 83.04,
+    "negative": 9.2,
+    "neutral": 7.76
+  },
+  "binary_rows_after_dropping_neutral": 216895,
+  "pct_verified": 65.27,
+  "date_min": "1997-09-10",
+  "date_max": "2023-03-18",
+  "mean_helpful_votes": 1.74
+}

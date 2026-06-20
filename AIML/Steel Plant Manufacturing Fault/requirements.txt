@@ -1,0 +1,32 @@
+# Core
+numpy
+pandas
+matplotlib
+seaborn
+tqdm
+pillow
+opencv-python
+scikit-learn
+scikit-image
+
+# Deep learning (install torch separately for your CUDA build, e.g.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128 )
+torch
+torchvision
+segmentation-models-pytorch
+timm
+
+# Explainability
+grad-cam
+
+# Hyperparameter tuning
+optuna
+
+# Deployment
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Notebooks
+jupyter
+ipykernel

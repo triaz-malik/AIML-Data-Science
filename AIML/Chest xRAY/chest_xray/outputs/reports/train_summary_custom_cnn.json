@@ -1,0 +1,6 @@
+{
+  "model": "custom_cnn",
+  "best_val_recall": 0.9775474956822107,
+  "minutes": 3.42,
+  "checkpoint": "C:\\Working\\AI ML Projetcs\\Chest xRAY\\chest_xray\\outputs\\checkpoints\\custom_cnn_best.pt"
+}

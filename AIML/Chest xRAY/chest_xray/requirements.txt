@@ -1,0 +1,30 @@
+# ---------------------------------------------------------------------------
+# Pneumonia Detection from Chest X-Rays  --  requirements
+# ---------------------------------------------------------------------------
+# GPU note (IMPORTANT, Windows + RTX 5080 / Blackwell):
+#   PyTorch must be the CUDA 12.8 build for sm_120 support. Install torch FIRST
+#   from the cu128 index, then the rest of this file:
+#
+#     pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+#     pip install -r requirements.txt
+#
+#   Verify GPU is visible:
+#     python -c "import torch; print(torch.__version__, torch.cuda.is_available(), torch.cuda.get_device_name(0))"
+# ---------------------------------------------------------------------------
+
+# Core scientific stack (already present in your env, pinned loosely)
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+pillow
+
+# Deep learning (install torch/torchvision from the cu128 index, see note above)
+torch
+torchvision
+
+# Training utilities
+tqdm                # progress bars
+torchmetrics        # clean recall/F1/AUROC computation
+grad-cam            # pytorch-grad-cam: Grad-CAM explainability

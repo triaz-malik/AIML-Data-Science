@@ -1,0 +1,18 @@
+# data (large) — keep folder structure out of git or use git-lfs / DVC
+training/
+validation/
+quarantine/
+
+# model weights (large)
+models/*.pth
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db

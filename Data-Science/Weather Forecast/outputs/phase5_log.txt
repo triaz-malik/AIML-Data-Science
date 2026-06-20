@@ -1,0 +1,99 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780915660.337069   24924 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1780915662.607231   24924 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+[Phase 5] Preparing sequence windows ...
+  train=(48975, 24, 11)  val=(10495, 24, 11)  test=(10495, 24, 11)
+
+[Phase 5] Training LSTM ...
+Epoch 1/30
+383/383 - 4s - 10ms/step - loss: 0.0576 - mae: 0.1618 - val_loss: 0.0144 - val_mae: 0.0901 - learning_rate: 0.0010
+Epoch 2/30
+383/383 - 4s - 10ms/step - loss: 0.0187 - mae: 0.1033 - val_loss: 0.0096 - val_mae: 0.0705 - learning_rate: 0.0010
+Epoch 3/30
+383/383 - 4s - 10ms/step - loss: 0.0146 - mae: 0.0905 - val_loss: 0.0090 - val_mae: 0.0688 - learning_rate: 0.0010
+Epoch 4/30
+383/383 - 5s - 12ms/step - loss: 0.0126 - mae: 0.0832 - val_loss: 0.0099 - val_mae: 0.0747 - learning_rate: 0.0010
+Epoch 5/30
+383/383 - 5s - 12ms/step - loss: 0.0116 - mae: 0.0790 - val_loss: 0.0085 - val_mae: 0.0682 - learning_rate: 0.0010
+Epoch 6/30
+383/383 - 4s - 10ms/step - loss: 0.0108 - mae: 0.0761 - val_loss: 0.0098 - val_mae: 0.0749 - learning_rate: 0.0010
+Epoch 7/30
+383/383 - 5s - 12ms/step - loss: 0.0105 - mae: 0.0749 - val_loss: 0.0113 - val_mae: 0.0815 - learning_rate: 0.0010
+Epoch 8/30
+383/383 - 5s - 12ms/step - loss: 0.0102 - mae: 0.0732 - val_loss: 0.0118 - val_mae: 0.0837 - learning_rate: 0.0010
+Epoch 9/30
+383/383 - 5s - 14ms/step - loss: 0.0094 - mae: 0.0703 - val_loss: 0.0112 - val_mae: 0.0814 - learning_rate: 5.0000e-04
+Epoch 10/30
+383/383 - 5s - 12ms/step - loss: 0.0094 - mae: 0.0697 - val_loss: 0.0113 - val_mae: 0.0813 - learning_rate: 5.0000e-04
+  LSTM: {'MAE': 0.5779, 'RMSE': 0.7655, 'MAPE': 10.757, 'R2': 0.9903}
+
+[Phase 5] Training GRU ...
+Epoch 1/30
+383/383 - 5s - 14ms/step - loss: 0.0616 - mae: 0.1635 - val_loss: 0.0140 - val_mae: 0.0876 - learning_rate: 0.0010
+Epoch 2/30
+383/383 - 3s - 8ms/step - loss: 0.0184 - mae: 0.1022 - val_loss: 0.0120 - val_mae: 0.0815 - learning_rate: 0.0010
+Epoch 3/30
+383/383 - 3s - 7ms/step - loss: 0.0142 - mae: 0.0889 - val_loss: 0.0094 - val_mae: 0.0691 - learning_rate: 0.0010
+Epoch 4/30
+383/383 - 3s - 9ms/step - loss: 0.0125 - mae: 0.0827 - val_loss: 0.0101 - val_mae: 0.0746 - learning_rate: 0.0010
+Epoch 5/30
+383/383 - 4s - 11ms/step - loss: 0.0119 - mae: 0.0800 - val_loss: 0.0114 - val_mae: 0.0816 - learning_rate: 0.0010
+Epoch 6/30
+383/383 - 3s - 8ms/step - loss: 0.0111 - mae: 0.0771 - val_loss: 0.0100 - val_mae: 0.0726 - learning_rate: 0.0010
+Epoch 7/30
+383/383 - 3s - 8ms/step - loss: 0.0105 - mae: 0.0743 - val_loss: 0.0095 - val_mae: 0.0726 - learning_rate: 5.0000e-04
+Epoch 8/30
+383/383 - 3s - 8ms/step - loss: 0.0103 - mae: 0.0738 - val_loss: 0.0101 - val_mae: 0.0739 - learning_rate: 5.0000e-04
+  GRU: {'MAE': 0.5644, 'RMSE': 0.7789, 'MAPE': 8.278, 'R2': 0.99}
+
+[Phase 5] Training BiLSTM ...
+Epoch 1/30
+383/383 - 6s - 17ms/step - loss: 0.0488 - mae: 0.1560 - val_loss: 0.0133 - val_mae: 0.0842 - learning_rate: 0.0010
+Epoch 2/30
+383/383 - 7s - 18ms/step - loss: 0.0173 - mae: 0.0991 - val_loss: 0.0093 - val_mae: 0.0695 - learning_rate: 0.0010
+Epoch 3/30
+383/383 - 5s - 13ms/step - loss: 0.0134 - mae: 0.0862 - val_loss: 0.0083 - val_mae: 0.0651 - learning_rate: 0.0010
+Epoch 4/30
+383/383 - 5s - 13ms/step - loss: 0.0118 - mae: 0.0804 - val_loss: 0.0081 - val_mae: 0.0652 - learning_rate: 0.0010
+Epoch 5/30
+383/383 - 5s - 13ms/step - loss: 0.0110 - mae: 0.0769 - val_loss: 0.0077 - val_mae: 0.0617 - learning_rate: 0.0010
+Epoch 6/30
+383/383 - 5s - 14ms/step - loss: 0.0106 - mae: 0.0755 - val_loss: 0.0075 - val_mae: 0.0614 - learning_rate: 0.0010
+Epoch 7/30
+383/383 - 5s - 13ms/step - loss: 0.0104 - mae: 0.0745 - val_loss: 0.0075 - val_mae: 0.0613 - learning_rate: 0.0010
+Epoch 8/30
+383/383 - 4s - 11ms/step - loss: 0.0100 - mae: 0.0728 - val_loss: 0.0075 - val_mae: 0.0608 - learning_rate: 0.0010
+Epoch 9/30
+383/383 - 4s - 12ms/step - loss: 0.0098 - mae: 0.0719 - val_loss: 0.0075 - val_mae: 0.0615 - learning_rate: 0.0010
+Epoch 10/30
+383/383 - 5s - 12ms/step - loss: 0.0092 - mae: 0.0695 - val_loss: 0.0074 - val_mae: 0.0603 - learning_rate: 5.0000e-04
+Epoch 11/30
+383/383 - 4s - 10ms/step - loss: 0.0091 - mae: 0.0691 - val_loss: 0.0073 - val_mae: 0.0596 - learning_rate: 5.0000e-04
+Epoch 12/30
+383/383 - 5s - 12ms/step - loss: 0.0090 - mae: 0.0684 - val_loss: 0.0071 - val_mae: 0.0592 - learning_rate: 5.0000e-04
+Epoch 13/30
+383/383 - 4s - 10ms/step - loss: 0.0090 - mae: 0.0688 - val_loss: 0.0069 - val_mae: 0.0576 - learning_rate: 5.0000e-04
+Epoch 14/30
+383/383 - 4s - 10ms/step - loss: 0.0089 - mae: 0.0680 - val_loss: 0.0069 - val_mae: 0.0584 - learning_rate: 5.0000e-04
+Epoch 15/30
+383/383 - 4s - 11ms/step - loss: 0.0089 - mae: 0.0680 - val_loss: 0.0069 - val_mae: 0.0576 - learning_rate: 5.0000e-04
+Epoch 16/30
+383/383 - 4s - 11ms/step - loss: 0.0087 - mae: 0.0677 - val_loss: 0.0070 - val_mae: 0.0584 - learning_rate: 5.0000e-04
+Epoch 17/30
+383/383 - 4s - 11ms/step - loss: 0.0085 - mae: 0.0661 - val_loss: 0.0082 - val_mae: 0.0643 - learning_rate: 2.5000e-04
+Epoch 18/30
+383/383 - 4s - 12ms/step - loss: 0.0083 - mae: 0.0654 - val_loss: 0.0081 - val_mae: 0.0639 - learning_rate: 2.5000e-04
+Epoch 19/30
+383/383 - 4s - 10ms/step - loss: 0.0083 - mae: 0.0656 - val_loss: 0.0075 - val_mae: 0.0621 - learning_rate: 2.5000e-04
+Epoch 20/30
+383/383 - 3s - 9ms/step - loss: 0.0082 - mae: 0.0650 - val_loss: 0.0081 - val_mae: 0.0647 - learning_rate: 1.2500e-04
+  BiLSTM: {'MAE': 0.4697, 'RMSE': 0.6609, 'MAPE': 7.502, 'R2': 0.9928}
+
+[Phase 5] Deep learning results:
+           MAE    RMSE    MAPE      R2
+LSTM    0.5779  0.7655  10.757  0.9903
+GRU     0.5644  0.7789   8.278  0.9900
+BiLSTM  0.4697  0.6609   7.502  0.9928
+[Phase 5] Done.

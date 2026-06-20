@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+
+# Generated artifacts (large; reproduce via `python -m src.train`)
+data/processed/
+models/*.pkl
+submission.csv
+submission.zip
+
+# Optuna study cache
+*.db
+.optuna/

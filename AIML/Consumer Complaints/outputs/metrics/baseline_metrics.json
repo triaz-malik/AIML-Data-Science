@@ -1,0 +1,56 @@
+{
+  "model": "TF-IDF + Logistic Regression",
+  "best_params": {
+    "C": 2.0
+  },
+  "cv_weighted_f1": 0.8666,
+  "tuning_seconds": 277.9,
+  "test_accuracy": 0.8684,
+  "test_f1_macro": 0.8335,
+  "test_f1_weighted": 0.8676,
+  "test_precision_weighted": 0.8678,
+  "test_recall_weighted": 0.8684,
+  "n_features": 50000,
+  "per_class_f1": {
+    "Bank account or service": 0.831,
+    "Consumer & personal loan": 0.747,
+    "Credit card or prepaid card": 0.832,
+    "Credit reporting & repair": 0.881,
+    "Debt collection": 0.859,
+    "Money transfer & virtual currency": 0.669,
+    "Mortgage": 0.941,
+    "Student loan": 0.907
+  },
+  "grid_results": [
+    {
+      "param_C": 2.0,
+      "mean_test_score": 0.8666,
+      "std_test_score": 0.0004
+    },
+    {
+      "param_C": 5.0,
+      "mean_test_score": 0.8661,
+      "std_test_score": 0.0013
+    },
+    {
+      "param_C": 1.0,
+      "mean_test_score": 0.8638,
+      "std_test_score": 0.0007
+    },
+    {
+      "param_C": 10.0,
+      "mean_test_score": 0.8635,
+      "std_test_score": 0.001
+    },
+    {
+      "param_C": 0.5,
+      "mean_test_score": 0.8586,
+      "std_test_score": 0.0009
+    },
+    {
+      "param_C": 0.1,
+      "mean_test_score": 0.834,
+      "std_test_score": 0.0019
+    }
+  ]
+}

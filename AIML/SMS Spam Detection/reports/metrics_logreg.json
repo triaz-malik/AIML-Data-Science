@@ -1,0 +1,58 @@
+{
+  "model": "tfidf_logreg",
+  "best_params": {
+    "clf__C": 5.0,
+    "clf__l1_ratio": 1.0
+  },
+  "cv_f1_macro": 0.8484643476668623,
+  "test_accuracy": 0.9506477483035164,
+  "test_f1_macro": 0.8771585874789072,
+  "test_f1_weighted": 0.9513674303792242,
+  "binary_accuracy": 0.9814929056138186,
+  "binary_f1": 0.9791376912378303,
+  "report": {
+    "Normal": {
+      "precision": 0.9855555555555555,
+      "recall": 0.9811946902654868,
+      "f1-score": 0.983370288248337,
+      "support": 904.0
+    },
+    "Promotion": {
+      "precision": 0.7333333333333333,
+      "recall": 0.7674418604651163,
+      "f1-score": 0.75,
+      "support": 43.0
+    },
+    "Spam": {
+      "precision": 0.7222222222222222,
+      "recall": 0.8666666666666667,
+      "f1-score": 0.7878787878787878,
+      "support": 60.0
+    },
+    "Phishing": {
+      "precision": 0.9454148471615721,
+      "recall": 0.9271948608137045,
+      "f1-score": 0.9362162162162162,
+      "support": 467.0
+    },
+    "Fraud": {
+      "precision": 0.9315068493150684,
+      "recall": 0.9251700680272109,
+      "f1-score": 0.9283276450511946,
+      "support": 147.0
+    },
+    "accuracy": 0.9506477483035164,
+    "macro avg": {
+      "precision": 0.8636065615175503,
+      "recall": 0.893533629247637,
+      "f1-score": 0.8771585874789072,
+      "support": 1621.0
+    },
+    "weighted avg": {
+      "precision": 0.9526521464297706,
+      "recall": 0.9506477483035164,
+      "f1-score": 0.9513674303792242,
+      "support": 1621.0
+    }
+  }
+}

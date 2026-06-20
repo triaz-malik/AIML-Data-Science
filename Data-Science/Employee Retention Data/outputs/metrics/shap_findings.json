@@ -1,0 +1,80 @@
+{
+  "explained_model": "XGBoost",
+  "top_global_drivers": [
+    {
+      "feature": "OverTimeFlag",
+      "mean_abs_shap": 0.9402
+    },
+    {
+      "feature": "StockOptionLevel",
+      "mean_abs_shap": 0.6606
+    },
+    {
+      "feature": "Age",
+      "mean_abs_shap": 0.6241
+    },
+    {
+      "feature": "NumCompaniesWorked",
+      "mean_abs_shap": 0.6141
+    },
+    {
+      "feature": "DistanceFromHome",
+      "mean_abs_shap": 0.5548
+    },
+    {
+      "feature": "EnvironmentSatisfaction",
+      "mean_abs_shap": 0.5481
+    },
+    {
+      "feature": "DailyRate",
+      "mean_abs_shap": 0.5164
+    },
+    {
+      "feature": "JobSatisfaction",
+      "mean_abs_shap": 0.4875
+    },
+    {
+      "feature": "YearsWithCurrManager",
+      "mean_abs_shap": 0.4838
+    },
+    {
+      "feature": "MonthlyIncome",
+      "mean_abs_shap": 0.4679
+    },
+    {
+      "feature": "RelationshipSatisfaction",
+      "mean_abs_shap": 0.4416
+    },
+    {
+      "feature": "IncomeVsLevelRatio",
+      "mean_abs_shap": 0.399
+    }
+  ],
+  "example_employee": {
+    "test_index": 200,
+    "predicted_risk_pct": 100.0,
+    "actual_attrition": 1,
+    "top_reasons": [
+      {
+        "feature": "OverTimeFlag",
+        "shap": 1.295
+      },
+      {
+        "feature": "YearsWithCurrManager",
+        "shap": 1.1558
+      },
+      {
+        "feature": "MonthlyIncome",
+        "shap": 0.8609
+      },
+      {
+        "feature": "Age",
+        "shap": 0.8216
+      },
+      {
+        "feature": "StockOptionLevel",
+        "shap": 0.5082
+      }
+    ]
+  }
+}

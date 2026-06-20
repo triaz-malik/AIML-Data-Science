@@ -1,0 +1,16 @@
+# Vehicle Damage Detection — Python deps (Python 3.13, CUDA 12.8 build of torch)
+# Install torch/vision from the CUDA index, e.g.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+torch>=2.6
+torchvision>=0.21
+torchmetrics>=1.4
+numpy>=2.0
+pandas>=2.2
+pillow>=10.0
+opencv-python>=4.10
+scikit-learn>=1.5
+matplotlib>=3.8
+seaborn>=0.13
+optuna>=4.0
+grad-cam>=1.5
+streamlit>=1.30

@@ -1,0 +1,21 @@
+{
+  "rows_total_raw": 903983,
+  "rows_with_narrative": 199970,
+  "pct_with_narrative": 22.12,
+  "rows_after_consolidation": 199678,
+  "n_categories": 8,
+  "category_counts": {
+    "Debt collection": 47915,
+    "Credit reporting & repair": 46263,
+    "Mortgage": 36582,
+    "Credit card or prepaid card": 23648,
+    "Bank account or service": 17030,
+    "Student loan": 13304,
+    "Consumer & personal loan": 12740,
+    "Money transfer & virtual currency": 2196
+  },
+  "date_min": "2015-03-19",
+  "date_max": "2017-11-04",
+  "n_companies": 3299,
+  "n_states": 62
+}

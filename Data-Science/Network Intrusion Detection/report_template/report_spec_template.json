@@ -1,0 +1,98 @@
+{
+  "_README": "Copy this file, rename it, and edit the values for your project. Keys starting with '_' are ignored (use them for notes). Figure 'path' values are resolved against the base_dir you pass to the builder. Text supports <b>bold</b> and <i>italic</i>.",
+
+  "title": "My Project Report",
+  "subtitle": "One-line description of the project",
+  "highlight": "Best result: <model> | Accuracy 0.00 | F1 0.00",
+  "intro": "One short paragraph stating the goal of the project and what this report covers.",
+
+  "blocks": [
+    {"type": "heading", "level": 1, "text": "0. What This Project Is"},
+    {"type": "paragraph", "text": "Explain in plain English what the project does and why it matters."},
+
+    {"type": "heading", "level": 1, "text": "1. The Data"},
+    {"type": "paragraph", "text": "Describe the dataset(s): source, size, features, target."},
+    {"type": "table",
+     "header": ["File", "Rows", "Has label?", "Used for"],
+     "rows": [
+       ["train.csv", "00,000", "Yes", "Training + evaluation"],
+       ["test.csv", "00,000", "No", "Final predictions only"]
+     ],
+     "col_widths_cm": [4.5, 2.5, 3, 6]},
+
+    {"type": "heading", "level": 1, "text": "2. Problems Encountered & How They Were Solved"},
+    {"_note": "Use style: info (blue), warning (orange), danger (red), success (green).",
+     "type": "box", "style": "warning",
+     "title": "Problem 1 — short title",
+     "text": "Describe the problem, then <b>Solution:</b> describe the fix."},
+    {"type": "spacer", "height_cm": 0.25},
+    {"type": "box", "style": "warning",
+     "title": "Problem 2 — short title",
+     "text": "Describe the problem, then <b>Solution:</b> describe the fix."},
+
+    {"type": "heading", "level": 1, "text": "3. What Was Done (Step by Step)"},
+    {"type": "bullets", "items": [
+      "<b>Explore:</b> what you found in the data.",
+      "<b>Clean:</b> what you removed or fixed.",
+      "<b>Prepare features:</b> encoding / scaling / engineering.",
+      "<b>Train & tune:</b> models tried and how they were validated.",
+      "<b>Explain & report:</b> explainability and outputs produced."
+    ]},
+
+    {"type": "pagebreak"},
+    {"type": "heading", "level": 1, "text": "4. Exploratory Analysis"},
+    {"_note": "Replace path with your figure; width_cm controls size.",
+     "type": "figure", "path": "01_target_distribution.png", "width_cm": 11,
+     "caption": "Caption explaining what this chart shows."},
+
+    {"type": "pagebreak"},
+    {"type": "heading", "level": 1, "text": "5. Results"},
+    {"type": "paragraph", "text": "Summarise how models performed on held-out data."},
+    {"type": "table",
+     "header": ["Model", "Accuracy", "Precision", "Recall", "F1", "ROC AUC"],
+     "rows": [
+       ["Model A (best)", "0.000", "0.000", "0.000", "0.000", "0.000"],
+       ["Model B", "0.000", "0.000", "0.000", "0.000", "0.000"]
+     ],
+     "highlight_row": 1},
+    {"type": "heading", "level": 2, "text": "What each score means"},
+    {"type": "bullets", "items": [
+      "<b>Accuracy</b> — share of all cases classified correctly.",
+      "<b>Precision</b> — when it predicts positive, how often it is right (few false alarms).",
+      "<b>Recall</b> — of all real positives, how many were caught (few misses).",
+      "<b>F1</b> — single balanced score combining precision and recall.",
+      "<b>ROC AUC</b> — overall ability to separate the classes; 1.0 is perfect."
+    ]},
+    {"type": "figure", "path": "10_model_comparison.png", "width_cm": 14},
+
+    {"type": "pagebreak"},
+    {"type": "heading", "level": 1, "text": "6. Explainability"},
+    {"type": "paragraph", "text": "Which features drive the predictions, and why that makes sense."},
+    {"type": "figure", "path": "11_shap_summary.png", "width_cm": 14,
+     "caption": "Feature impact summary."},
+
+    {"type": "pagebreak"},
+    {"type": "heading", "level": 1, "text": "7. What the Outputs Are"},
+    {"type": "table",
+     "header": ["File / folder", "What it is"],
+     "rows": [
+       ["reports/Report.pdf", "This report."],
+       ["models/best_model.pkl", "The chosen trained model."],
+       ["outputs/predictions.csv", "Scored records."]
+     ],
+     "col_widths_cm": [6.5, 9.5]},
+
+    {"type": "heading", "level": 1, "text": "8. Honest Caveat"},
+    {"type": "box", "style": "danger",
+     "title": "Limitations to keep in mind",
+     "text": "State anything that could make real-world performance differ from the reported scores."},
+
+    {"type": "spacer", "height_cm": 0.4},
+    {"type": "heading", "level": 1, "text": "9. Business Impact"},
+    {"type": "bullets", "items": [
+      "Impact point 1.",
+      "Impact point 2.",
+      "Impact point 3."
+    ]}
+  ]
+}

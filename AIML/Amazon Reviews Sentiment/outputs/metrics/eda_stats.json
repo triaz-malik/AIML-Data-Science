@@ -1,0 +1,224 @@
+{
+  "rating_distribution": {
+    "1": 12527,
+    "2": 9109,
+    "3": 18249,
+    "4": 40326,
+    "5": 154933
+  },
+  "sentiment_pct": {
+    "positive": 83.04,
+    "negative": 9.2,
+    "neutral": 7.76
+  },
+  "word_count_mean_by_sentiment": {
+    "negative": 67.9,
+    "neutral": 102.9,
+    "positive": 79.0
+  },
+  "word_count_median_by_sentiment": {
+    "negative": 36.0,
+    "neutral": 55.0,
+    "positive": 40.0
+  },
+  "mean_rating_by_category": {
+    "Electronics": 4.23,
+    "Clothing Shoes and Jewelry": 4.325,
+    "Books": 4.357,
+    "Home and Kitchen": 4.372,
+    "Toys and Games": 4.438
+  },
+  "pct_negative_by_category": {
+    "Electronics": 12.9,
+    "Clothing Shoes and Jewelry": 9.33,
+    "Books": 6.58,
+    "Home and Kitchen": 9.41,
+    "Toys and Games": 7.72
+  },
+  "top_bigrams_negative": [
+    {
+      "ngram": "br br",
+      "count": 2021
+    },
+    {
+      "ngram": "waste money",
+      "count": 183
+    },
+    {
+      "ngram": "year old",
+      "count": 136
+    },
+    {
+      "ngram": "looks like",
+      "count": 103
+    },
+    {
+      "ngram": "doesn work",
+      "count": 92
+    },
+    {
+      "ngram": "didn work",
+      "count": 87
+    },
+    {
+      "ngram": "don know",
+      "count": 86
+    },
+    {
+      "ngram": "stopped working",
+      "count": 72
+    },
+    {
+      "ngram": "did work",
+      "count": 72
+    },
+    {
+      "ngram": "don waste",
+      "count": 71
+    },
+    {
+      "ngram": "does work",
+      "count": 69
+    },
+    {
+      "ngram": "br update",
+      "count": 69
+    },
+    {
+      "ngram": "look like",
+      "count": 61
+    },
+    {
+      "ngram": "waste time",
+      "count": 57
+    },
+    {
+      "ngram": "poor quality",
+      "count": 57
+    }
+  ],
+  "top_trigrams_negative": [
+    {
+      "ngram": "don waste money",
+      "count": 55
+    },
+    {
+      "ngram": "br br update",
+      "count": 51
+    },
+    {
+      "ngram": "br br book",
+      "count": 42
+    },
+    {
+      "ngram": "br br really",
+      "count": 24
+    },
+    {
+      "ngram": "work br br",
+      "count": 23
+    },
+    {
+      "ngram": "book br br",
+      "count": 23
+    },
+    {
+      "ngram": "br br just",
+      "count": 23
+    },
+    {
+      "ngram": "br br overall",
+      "count": 23
+    },
+    {
+      "ngram": "waste time money",
+      "count": 22
+    },
+    {
+      "ngram": "br br like",
+      "count": 21
+    },
+    {
+      "ngram": "br br good",
+      "count": 15
+    },
+    {
+      "ngram": "br br recommend",
+      "count": 15
+    },
+    {
+      "ngram": "like br br",
+      "count": 14
+    },
+    {
+      "ngram": "br br product",
+      "count": 14
+    },
+    {
+      "ngram": "br br think",
+      "count": 14
+    }
+  ],
+  "top_bigrams_positive": [
+    {
+      "ngram": "br br",
+      "count": 31569
+    },
+    {
+      "ngram": "year old",
+      "count": 1998
+    },
+    {
+      "ngram": "highly recommend",
+      "count": 1375
+    },
+    {
+      "ngram": "br book",
+      "count": 991
+    },
+    {
+      "ngram": "really like",
+      "count": 947
+    },
+    {
+      "ngram": "easy use",
+      "count": 915
+    },
+    {
+      "ngram": "works great",
+      "count": 815
+    },
+    {
+      "ngram": "good quality",
+      "count": 811
+    },
+    {
+      "ngram": "feel like",
+      "count": 655
+    },
+    {
+      "ngram": "br overall",
+      "count": 641
+    },
+    {
+      "ngram": "long time",
+      "count": 582
+    },
+    {
+      "ngram": "br like",
+      "count": 580
+    },
+    {
+      "ngram": "review hope",
+      "count": 575
+    },
+    {
+      "ngram": "br rebecca",
+      "count": 557
+    },
+    {
+      "ngram": "rebecca review",
+      "count": 554
+    }
+  ]
+}

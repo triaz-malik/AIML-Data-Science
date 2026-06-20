@@ -1,0 +1,73 @@
+{
+  "model": "TF-IDF + Logistic Regression",
+  "task": "3-class sentiment (negative/neutral/positive)",
+  "best_params": {
+    "C": 1.0,
+    "class_weight": "balanced"
+  },
+  "cv_macro_f1": 0.6077,
+  "tuning_seconds": 119.1,
+  "test_accuracy": 0.7976,
+  "test_f1_macro": 0.6052,
+  "test_f1_weighted": 0.824,
+  "test_precision_macro": 0.5751,
+  "test_recall_macro": 0.6737,
+  "test_roc_auc_ovr_macro": 0.8877,
+  "n_features": 50000,
+  "n_test": 46997,
+  "per_class_f1": {
+    "negative": 0.59,
+    "neutral": 0.33,
+    "positive": 0.896
+  },
+  "grid_results": [
+    {
+      "param_C": 1.0,
+      "param_class_weight": "balanced",
+      "mean_test_score": 0.6077,
+      "std_test_score": 0.0031
+    },
+    {
+      "param_C": 0.5,
+      "param_class_weight": "balanced",
+      "mean_test_score": 0.6072,
+      "std_test_score": 0.0034
+    },
+    {
+      "param_C": 5.0,
+      "param_class_weight": NaN,
+      "mean_test_score": 0.6069,
+      "std_test_score": 0.0057
+    },
+    {
+      "param_C": 2.0,
+      "param_class_weight": "balanced",
+      "mean_test_score": 0.6054,
+      "std_test_score": 0.0022
+    },
+    {
+      "param_C": 2.0,
+      "param_class_weight": NaN,
+      "mean_test_score": 0.5999,
+      "std_test_score": 0.004
+    },
+    {
+      "param_C": 5.0,
+      "param_class_weight": "balanced",
+      "mean_test_score": 0.5996,
+      "std_test_score": 0.0023
+    },
+    {
+      "param_C": 1.0,
+      "param_class_weight": NaN,
+      "mean_test_score": 0.5858,
+      "std_test_score": 0.004
+    },
+    {
+      "param_C": 0.5,
+      "param_class_weight": NaN,
+      "mean_test_score": 0.5642,
+      "std_test_score": 0.0035
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "headcount": 10000,
+  "baseline_attrition_rate_pct": 15.0,
+  "annual_leavers": 1500,
+  "cost_per_leaver": 15000,
+  "cost_breakdown": {
+    "recruitment": 5000,
+    "training": 3000,
+    "productivity": 7000
+  },
+  "annual_loss": 22500000,
+  "detection_rate_used": 0.808,
+  "retention_success_rate": 0.25,
+  "employees_saved": 303,
+  "annual_savings": 4547812
+}

@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+xgboost
+statsmodels
+tensorflow>=2.16
+protobuf>=6.31.1
+shap
+joblib
+streamlit
+pyarrow
+tabulate
