@@ -1,6 +1,6 @@
 # Data Science & AI/ML Project Portfolio
 
-A collection of end-to-end **machine learning, deep learning, and data analytics** projects.
+A collection of end-to-end **machine learning, deep learning, AI and data analytics** projects.
 Every project folder is self-contained: source code, pipeline scripts / notebooks, and a
 **final report (PDF / Word) at the top of the folder** that walks through the business problem,
 data, EDA, modeling, results, and impact.
